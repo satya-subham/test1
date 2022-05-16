@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Form</title>
+</head>
+<style>
+    input {
+        border: none;
+        
+    }
+
+    input{
+        border: none;
+        border-bottom: 1px solid rgba(213, 142, 142, .5);
+    }
+
+    input:focus {
+        outline: none;
+    }
+</style>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Contact Form</legend>
+            <label for="fname">Full Name</label> <br>
+            <input type="text" name="fname" id="fname">
+            <br>
+            <label for="email">Email</label> <br>
+            <input type="mail" name="email" id="email">
+            <br>
+            <label for="tel">Phone Number</label> <br>
+            <input type="tel" name="tel" id="tel">
+            <br>
+            <label for="pwd">Password</label> <br>
+            <input type="password" name="pwd" id="pwd">
+            <br>
+            <label for="cpwd">Confirm Password</label> <br>
+            <input type="password" name="cpwd" id="cpwd">
+            <br>
+            <label>Select Your Gender</label> <br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label><br>
+            <input type="radio" id="fmale" name="gender">
+            <label for="fmale">Female</label><br>
+            <input type="radio" id="others" name="gender">
+            <label for="others">Others</label>
+            <br>
+            <label>Select your favourite player:</label>
+            <br>
+            <input list="players" name="player" id="player">
+            <datalist id="players">
+                <option value="Dhoni">
+                <option value="Virat">
+                <option value="KL Rahul">
+                <option value="Raina">
+                <option value="Ruturaj">
+              </datalist>
+              <br>
+              <label for="address">Address</label> <br>
+              <textarea name="address" id="" cols="30" rows="5"></textarea>
+              <br>
+              <input type="submit" value="Register">
+              <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
