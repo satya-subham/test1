@@ -1,0 +1,24 @@
+table {
+    margin-top: 50px;
+    margin-left: 300px;
+    
+
+}
+
+table, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid;
+}
+
+thead, tfoot {
+    background-color: #04AA6D;
+}
+
+.col {
+    background-color: burlywood;
+}
+
+.row {
+    background-color: aqua;
+}
